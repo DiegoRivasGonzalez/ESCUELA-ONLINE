@@ -9,7 +9,7 @@
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;}
         nav {
-            background-color: darkblue;
+            background-color: orange;
             display: flex;
             justify-content: space-around;
             padding: 10px;
@@ -24,7 +24,7 @@
              text-shadow: 3px 3px 5px black;
         }
         header {
-            background-image: url(images/software.webp);
+            background-image: url(images/1520122632497.jpeg);
             height: 300px;
             display: flex;
             justify-content: center;
@@ -39,13 +39,13 @@
             text-shadow: 3px 3px 5px black;
             font-size: 3em;
         }
-        #contenedor-quienes {
+        #contenedor-cursos {
             display: flex;
         }
 
-        #contenedor-quienes #izqu { width: 50%;}
-        #contenedor-quienes #der { width: 50%;text-align: center;}
-        #contenedor-quienes #der img { width: 80%;}
+        #contenedor-cursos #izqu { width: 50%; font-size: 30px;}
+        #contenedor-cursos #der { width: 50%;text-align: center;}
+        #contenedor-cursos #der img { width: 80%;}
         .titulo {
             color:blue;
             text-align: center;
@@ -104,10 +104,27 @@
         }
         .cliente img { width: 90%; border-radius: 50%;}
         .cliente p { font-style: italic;}
-        #precios {
-            height: 200px;
-            background-color: antiquewhite;
+        #metodo {
+            height: 450px;
+            background-color: lightgoldenrodyellow;
+            padding: 20px;
+        }
+        #metodos{
+            display: flex;
+        }
 
+        
+        #metodos #izquierda{
+            width: 40%;
+            font-size: 25px;
+        }
+        #metodos #derecha{
+            width: 50%;
+            text-align: center;
+            padding: 10px;
+        }
+        #metodos #derecha img{
+            width: 70%;
         }
     </style>
 </head>
@@ -115,37 +132,44 @@
 
     <header>
         <div id="caja-central">
-            <h1>Bosco  Software</h1>
-            <h2>Soluciones de futuro</h2>
+            <h1>BOSCO ONLINE</h1>
+            <h2>La Escuela Online que crea tu futuro</h2>
         </div>
     </header>
     <nav>
         <a href="#">Inicio</a>
         <a href="#">Quienes Somos</a>
-        <a href="#">Dónde estamos</a>
+        <a href="#">Donde Estamos</a>
         <a href="#">Contacto</a>
     </nav>
     <section id="quienes-somos">
         <h1 class="titulo">
-            Quienes somos
+            Cursos Disponibles
         </h1>
-        <div id="contenedor-quienes">
+        <div id="contenedor-cursos">
             <div id="der">
-                <img src="images/equipo.jpg" alt="">
+                <img src="images/online.jpg" alt="">
             </div>
             <div id="izqu">
-                <h1>Un equipo jóven y 
-                    preparado para el futuro
+                <h1>Una amplia variedad de cursos en línea para que puedas estudiar desde tu hogar. 
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illo quidem reprehenderit assumenda nihil, consequatur dolores ipsum harum tenetur soluta, quos ducimus adipisci incidunt sunt saepe delectus quod vero eveniet?</p>
+                <p>Disfruta de los mejores cursos disponibles desde la comodidad de tu casa. Desde cursos de programación, idiomas, y mucho más... No hay nada que no puedas aprender con nuestros cursos. <a href="#">Más info.</a></p>
             </div>
 
         </div>
     </section>
-    <section id="precios">
-        <h1 class="título">Precios</h1>
-        <input type="text" name="nombre" id="nombre">
-        <input type="submit" value="Envíar">
+    <section id="metodo">
+    <h1 class="titulo">Metodos de Enseñanza</h1>
+    <div id="metodos">
+
+        <div id="izquierda">
+        <h1 class="título">Los Mejores Metodos de Enseñanaza</h1>
+        <p>En nuestra escuela online, combinamos aprendizaje autónomo con recursos interactivos para que estudies a tu propio ritmo. Contamos con videos explicativos, tutoriales paso a paso y ejercicios prácticos que te ayudarán a reforzar cada concepto. Además, disponemos de foros de discusión y acompañamiento de tutores para resolver dudas y brindarte apoyo en tu proceso de aprendizaje para que al terminar el curso hayas comprendido perfectamente todos los conceptos.</p>
+        </div>
+        <div id="derecha">
+            <img src="images/Mejores-plataformas-de-cursos.jpg" alt="">
+        </div>
+    </div>
     </section>
     <section id="clientes">
         <h1 class="titulo">
