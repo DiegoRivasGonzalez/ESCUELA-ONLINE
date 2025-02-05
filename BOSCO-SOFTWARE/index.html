@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ágora Estudio de Arquitectura</title>
     <style>
-        * { box-sizing: border-box;
+        * {
+            box-sizing: border-box;
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;}
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         nav {
             background-color: orange;
             display: flex;
             justify-content: space-around;
             padding: 10px;
         }
+
         nav a {
-             color:white;
-             text-decoration: none;
-             
+            color: white;
+            text-decoration: none;
+
         }
+
         nav a:hover {
-             color:yellow;
-             text-shadow: 3px 3px 5px black;
+            color: yellow;
+            text-shadow: 3px 3px 5px black;
         }
+
         header {
             background-image: url(images/1520122632497.jpeg);
             height: 300px;
@@ -31,35 +38,52 @@
             align-items: center;
             background-size: cover;
         }
+
         #caja-central {
             text-align: center;
         }
+
         header h1 {
             color: yellow;
             text-shadow: 3px 3px 5px black;
             font-size: 3em;
         }
+
         #contenedor-cursos {
             display: flex;
         }
 
-        #contenedor-cursos #izqu { width: 50%; font-size: 30px;}
-        #contenedor-cursos #der { width: 50%;text-align: center;}
-        #contenedor-cursos #der img { width: 80%;}
+        #contenedor-cursos #izqu {
+            width: 50%;
+            font-size: 30px;
+        }
+
+        #contenedor-cursos #der {
+            width: 50%;
+            text-align: center;
+        }
+
+        #contenedor-cursos #der img {
+            width: 80%;
+        }
+
         .titulo {
-            color:blue;
+            color: blue;
             text-align: center;
             padding-bottom: 10px;
         }
+
         section#quienes-somos {
-             padding: 20px;
+            padding: 20px;
         }
+
         section#clientes {
             padding: 20px;
             background-color: antiquewhite;
         }
+
         #contenedor-clientes {
-           
+
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -67,12 +91,14 @@
             padding: 20px;
 
         }
+
         .cliente {
             width: 30%;
-            
+
             text-align: center;
 
         }
+
         .cliente img {
             width: 90%;
         }
@@ -84,50 +110,66 @@
             display: flex;
             flex-wrap: wrap;
         }
+
         footer #caja-superior {
             width: 100%;
             text-align: center;
-            border-bottom:2px solid white ;
+            border-bottom: 2px solid white;
             padding: 10px;
         }
+
         footer .caja-inferior {
             width: 33%;
             padding: 10px;
             text-align: center;
         }
+
         #caja-central h2 {
             color: white;
             text-shadow: 3px 3px 5px black;
         }
+
         #quienes-somos {
             background-color: lightblue;
         }
-        .cliente img { width: 90%; border-radius: 50%;}
-        .cliente p { font-style: italic;}
+
+        .cliente img {
+            width: 90%;
+            border-radius: 50%;
+        }
+
+        .cliente p {
+            font-style: italic;
+        }
+
         #metodo {
             height: 450px;
             background-color: lightgoldenrodyellow;
             padding: 20px;
         }
-        #metodos{
+
+        #metodos {
             display: flex;
         }
 
-        
-        #metodos #izquierda{
+
+        #metodos #izquierda {
             width: 40%;
             font-size: 25px;
         }
-        #metodos #derecha{
+
+        #metodos #derecha {
             width: 50%;
             text-align: center;
             padding: 10px;
         }
-        #metodos #derecha img{
+
+        #metodos #derecha img {
             width: 70%;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Escuela Online - Aprende a tu Ritmo</h1>
@@ -145,37 +187,52 @@
     <div class="container">
         <section id="curso" class="section">
             <h2>Cursos Disponibles</h2>
-            <p>Ofrecemos una amplia variedad de cursos en línea para que puedas estudiar desde la comodidad de tu hogar. Desde programación hasta idiomas, tenemos algo para todos.</p>
+            <p>Ofrecemos una amplia variedad de cursos en línea para que puedas estudiar desde la comodidad de tu hogar.
+                Desde programación hasta idiomas, tenemos algo para todos.</p>
         </section>
 
         <section id="metodo" class="section">
             <h2>Metodología de Enseñanza</h2>
-            <p>Nuestro enfoque se basa en la flexibilidad y el aprendizaje autónomo, apoyado por tutoriales interactivos, videos y actividades prácticas que te permitirán aprender a tu propio ritmo.</p>
+            <p>Nuestro enfoque se basa en la flexibilidad y el aprendizaje autónomo, apoyado por tutoriales
+                interactivos, videos y actividades prácticas que te permitirán aprender a tu propio ritmo.</p>
         </section>
 
         <section id="beneficios" class="section">
             <h2>Beneficios de Estudiar en Línea</h2>
-            <p>La educación en línea te permite acceder a material de calidad, interactuar con instructores y estudiantes, y estudiar desde cualquier lugar del mundo, todo con horarios flexibles.</p>
+            <p>La educación en línea te permite acceder a material de calidad, interactuar con instructores y
+                estudiantes, y estudiar desde cualquier lugar del mundo, todo con horarios flexibles.</p>
         </section>
 
         <section id="testimonios" class="section">
             <h2>Testimonios de Estudiantes</h2>
-            <p>"Estudiar en esta escuela online ha sido una experiencia increíble. Los recursos son muy completos y los profesores siempre están dispuestos a ayudar." - Juan Pérez</p>
-            <p>"Gracias a esta plataforma pude estudiar mientras trabajaba, lo cual me permitió avanzar en mi carrera." - Ana García</p>
+            <p>"Estudiar en esta escuela online ha sido una experiencia increíble. Los recursos son muy completos y los
+                profesores siempre están dispuestos a ayudar." - Juan Pérez</p>
+            <p>"Gracias a esta plataforma pude estudiar mientras trabajaba, lo cual me permitió avanzar en mi carrera."
+                - Ana García</p>
         </section>
 
         <section id="contacto" class="section">
             <h2>Contacto</h2>
-            <p>¿Tienes dudas? Contáctanos para más información sobre nuestros cursos y cómo puedes empezar hoy mismo. Estamos aquí para ayudarte en todo el proceso.</p>
+            <p>¿Tienes dudas? Contáctanos para más información sobre nuestros cursos y cómo puedes empezar hoy mismo.
+                Estamos aquí para ayudarte en todo el proceso.</p>
         </section>
     </div>
 
     <footer>
         <p>2025 Escuela Online.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse aut cum eveniet deserunt a aperiam
+            dolorem similique facilis dolorum. Voluptatum, ipsa blanditiis pariatur suscipit a tenetur consequatur alias
+            iure.
+            Inventore cumque totam nesciunt dicta asperiores ab. Atque dicta officiis fugit ducimus voluptatum ipsa
+            culpa dolore nesciunt recusandae. Quam quidem, excepturi modi necessitatibus saepe commodi nesciunt neque
+            recusandae velit id.
+        </p>
     </footer>
 </body>
+
 </html>
 
-    
+
 </body>
+
 </html>
